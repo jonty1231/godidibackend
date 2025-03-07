@@ -12,7 +12,7 @@ dotenv.config()
 const app= express()
 app.use(express.json())
 
-const frontendLink="http://localhost:3000"
+const frontendLink="https://vishal.futuretouch.org/"
 
 app.use(cors({
     origin: frontendLink,  
